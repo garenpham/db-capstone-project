@@ -26,9 +26,9 @@ VALUES
 (3,3,'2021-08-17',3,112.500),
 (4,4,'2021-08-14',3,330.000);
 
-INSERT INTO bookings (CustomerID,BookingDate,TableNumber)
+INSERT INTO bookings (BookingID,BookingDate,TableNumber,CustomerID)
 VALUES
-(1,'2020-03-26',1),
-(2,'2020-07-17',4),
-(3,'2020-04-24',2),
-(4,'2020-04-13',6);
+(1,'2022-10-10',5,1),
+(2,'2022-11-12',3,3),
+(3,'2022-10-11',2,2),
+(4,'2022-10-13',2,1);
